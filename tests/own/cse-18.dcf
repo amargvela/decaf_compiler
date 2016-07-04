@@ -1,0 +1,18 @@
+callout printf;
+int a[10];
+int get_int ( int x ) {
+  return x;
+}
+void foo ( ) {
+  int i;
+  i = 2;// get_int ( 2 );
+  // Reuse bounds check
+  a[i] = 7;
+  a[i] = 3;
+  // printf("%d\n", a[i]);
+}
+void main ( ) {
+    foo();
+    printf("%d\n", a[2]);
+}
+

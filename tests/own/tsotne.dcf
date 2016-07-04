@@ -1,0 +1,10 @@
+callout printf;
+
+void main() {
+	int x, a[5];
+	a[3] = x + 1;
+	x = a[3] + 3;
+	a[4] = 5;
+	x = a[3] + 3;
+}
+

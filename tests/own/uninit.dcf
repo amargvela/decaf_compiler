@@ -1,0 +1,7 @@
+callout printf;
+
+void main() {
+    int a;
+    printf("%d\n", a);
+}
+

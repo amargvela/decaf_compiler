@@ -1,0 +1,12 @@
+void main() {
+    int a[10];
+    int x, y;
+    a[3] = x;
+    a[x + y + 2] = a[x + y + 2] + a[4];
+    x = 1;
+    if (true) {
+        a[1] = x + y;
+        x = a[2] + a[4];
+    }
+}
+

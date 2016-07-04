@@ -1,0 +1,9 @@
+void main() {
+    int x, y, z, a, b;
+    int temp;
+    temp = a + b;
+    x = temp;
+    y = temp;
+    z = temp;
+}
+

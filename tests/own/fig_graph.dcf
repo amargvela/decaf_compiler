@@ -1,0 +1,10 @@
+callout printf;
+void main() {
+    int grade;
+    if (grade > 90) {
+        printf("Hello, Jiasi!\n");
+    } else {
+        printf("Bye, Jiasi!\n");
+    }
+}
+

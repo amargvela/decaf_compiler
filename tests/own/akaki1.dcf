@@ -1,0 +1,8 @@
+callout printf;
+
+void main(){
+    int y;
+    for (y = 1, 2) {
+        break;
+    }
+}

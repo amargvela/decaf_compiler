@@ -1,0 +1,19 @@
+int a, b, c;
+
+int f() {
+    return a;
+}
+
+void main() {
+    int x, y, a;
+    if (true) {
+        x = a + b + c;
+        y = a + x;
+    } else {
+        int t;
+        t = a + b;
+        t = f();
+    }
+    x = 1;
+}
+
